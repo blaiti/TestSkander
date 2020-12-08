@@ -1,0 +1,7 @@
+<h1>Liste des livres</h1>
+
+<ol>
+    <li *ngFor= "let l of livres">
+        <skan-livre [livre]="l" [length]="l.length"></skan-livre>
+    </li>
+</ol>
